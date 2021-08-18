@@ -3,16 +3,18 @@
 
 int main() {
 
-    int a, b, s;
-  
-  // ENTRADA DE DADOS
-  scanf("%d %d", &a, &b);
+  int min, max;
+   int n, k=0;
+   scanf("%i", &n);
+   
+	int vet[n];
+	
+	do {
+			scanf("%i", &vet[k]);
+	k++; } while (k<n);
 
-  // PROCESSAMENTO - EXECUTANDO A FUNCAO
-  s = somar(a, b);
-
-  // SAIDA - IMPRIMINDO O RESULTADO
-  printf("SOMA = %d\n", s);
+  menor_maior(vet, n, &min, &max);
+  printf("\nMENOR = %d\nMAIOR = %d", min, max);
 
   return(0);
 }
