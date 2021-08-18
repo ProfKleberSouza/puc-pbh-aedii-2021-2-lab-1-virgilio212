@@ -3,16 +3,42 @@
 
 int main() {
 
-    int a, b, s;
-  
-  // ENTRADA DE DADOS
-  scanf("%d %d", &a, &b);
+  char palavras[100];
+  int contador;
 
-  // PROCESSAMENTO - EXECUTANDO A FUNCAO
-  s = somar(a, b);
+  int a=0, e=0, i=0, o=0, u=0;
 
-  // SAIDA - IMPRIMINDO O RESULTADO
-  printf("SOMA = %d\n", s);
+  fgets(palavras,100,stdin);
+
+  contador=strlen(palavras);
+
+  for (int k=0; k<contador; k++) {
+    switch(palavras[k]) {
+      case 'A':
+      case 'a':
+      case 'ã':
+      a++; }
+    switch(palavras[k]) {
+      case 'E':
+      case 'e':
+      case 'é':
+      e++; }
+    switch(palavras[k]) {
+      case 'I':
+      case 'i':
+      i++; } 
+    switch(palavras[k]) {
+      case 'O':
+      case 'o':
+      o++; }  
+    switch(palavras[k]) {
+      case 'U':
+      case 'u':
+      u++; } 
+
+  }
+
+  printf("A = %d\nE = %d\nI = %d\nO = %d\nU = %d", a, e, i, o, u);
 
   return(0);
 }
