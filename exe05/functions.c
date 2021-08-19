@@ -1,7 +1,17 @@
 
 #include "functions.h"
 
-int somar(int n1, int n2){
+void inverte(char texto[]){
 
-    return n1+n2;
+  int i, aux, end, n=strlen(texto);
+  end=n-1;
+  for(int k; k<n/2; k++){
+    aux=texto[k];
+    texto[k]=texto[end];
+    texto[end]=aux;
+    end--; }
+
+  
+  
+    
 }
