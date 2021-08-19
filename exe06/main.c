@@ -5,8 +5,7 @@ int main() {
 
     int x, n;
 
-    scanf("%i", &x);
-    scanf("%i", &n);
+    scanf("%i %i", &x, &n);
 
     printf("%d", potencia(x, n));
 
