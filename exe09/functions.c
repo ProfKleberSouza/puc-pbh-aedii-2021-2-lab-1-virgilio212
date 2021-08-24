@@ -1,7 +1,7 @@
 
 #include "functions.h"
 
-int somar(int n1, int n2){
+void placar_possiveis(int m, int n) {
 
-    return n1+n2;
+
 }

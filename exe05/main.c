@@ -9,7 +9,7 @@ int main() {
 
   inverte(palavras);
 
-  printf("%s", palavras);
+  printf("%s\n", palavras);
 
   return(0);
 }
