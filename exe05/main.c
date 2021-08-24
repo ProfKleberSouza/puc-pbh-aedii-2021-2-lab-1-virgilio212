@@ -4,9 +4,9 @@
 
 int main() {
 
-  char palavras[100];
+  char palavras[10000];
   
-  fgets(palavras,100,stdin);
+  fgets(palavras,10000,stdin);
 
   inverte(palavras);
 
