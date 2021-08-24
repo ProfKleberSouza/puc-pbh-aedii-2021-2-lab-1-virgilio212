@@ -9,9 +9,9 @@ int main() {
   fgets(palavras,100,stdin);
 
   if(is_palindromo(palavras)==true)
-  printf("SIM");
+  printf("SIM\n");
   else
-  printf("NAO");
+  printf("NAO\n");
 
   return(0);
 }

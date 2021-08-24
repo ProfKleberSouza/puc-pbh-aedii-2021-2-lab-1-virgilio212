@@ -17,7 +17,7 @@ bool is_palindromo(char palavras[]) {
   aux[j]='\0';
 
   strcpy(palavras, aux);
-  tamanho=strlen(palavras);''
+  tamanho=strlen(palavras);
 
   j=tamanho-1;
   for (i=0;i<tamanho;i++) {
