@@ -10,9 +10,4 @@ void inverte(char texto[]){
     aux=texto[k];
     texto[k]=texto[end];
     texto[end]=aux;
-    end--; }
-
-  
-  
-    
-}
+    end--; } }
