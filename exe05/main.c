@@ -9,7 +9,7 @@ int main() {
   fgets(palavras,10000,stdin);
 
   inverte(palavras);
-
+  
   printf("%s\n", palavras);
 
   return(0);
