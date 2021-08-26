@@ -12,5 +12,4 @@ int main() {
   
   printf("%s\n", palavras);
 
-  return(0);
-}
+  return(0); }
